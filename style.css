@@ -149,9 +149,14 @@ a {
 
 #gohome {
   display: none;
+  color: #000;
 
 }
+#gohome p {
 
+  color: #000;
+
+}
 /*home*/
 .home--star {
   position: fixed;
