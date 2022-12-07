@@ -1,28 +1,18 @@
 console.log("pokoj")
 
-//Modaly apky
-
 // HINT button 
 var modalHintLoz = document.getElementById('po-hint-modal');
-
-// Get the button that opens the modal
 var btnHintLoz = document.getElementById("po-hint");
-
-// Get the <span> element that closes the modal
 var spanHintLoz = document.getElementsByClassName("po--hint")[0];
 
-// When the user clicks the button, open the modal 
 btnHintLoz.onclick = function() {
   modalHintLoz.style.display = "block";
 }
 
-// When the user clicks on <span> (x), close the modal
 spanHintLoz.onclick = function() {
     modalHintLoz.style.display = "none";
 }
 
-
-// When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
     if (event.target == modalHintLoz) {
       modalHintLoz.style.display = "none";
@@ -34,24 +24,7 @@ window.onclick = function(event) {
 
 
 
-//Modaly Kuchyně
-// lampa
-var ebModal1 = document.getElementById('po--modal_lampa');
-var ebBtn1 = document.getElementById("po--link_lampa");
-var ebSpan1 = document.getElementsByClassName("po--modal_lampa")[0];
-
-ebBtn1.onclick = function() {
-    ebModal1.style.display = "block";
-}
-ebSpan1.onclick = function() {
-    ebModal1.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == ebModal1) {
-        ebModal1.style.display = "none";
-    }
-}
-
+//Modaly pokoj
 
 // baterky
 var ebModal2 = document.getElementById('po--modal_baterky');
@@ -156,7 +129,7 @@ function clickME(event) {
 
   console.log(clicks)
 
-  if(clicks == 6) {
+  if(clicks == 5) {
    document.getElementById('gohome').style.display = 'block'; 
    document.getElementById('zmiz').style.display = 'none';
    document.getElementById('po-hint').style.display = 'none';
@@ -170,7 +143,7 @@ function clickME(event) {
 
 }
 
-document.querySelectorAll(`a`) // select all buttons
+document.querySelectorAll(".btn") // select all buttons
   .forEach( 
     el => el.addEventListener(`click`, clickME, {once: true})
   ) 

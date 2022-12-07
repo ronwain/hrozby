@@ -76,27 +76,27 @@ if (sessionStorage.getItem("dilna") && sessionStorage.getItem("puda") && session
     console.log("nope")
 }
 
-// Kontrola localStorage -> projetí všech místností podle toho přirazení class
-// pole: https://codepen.io/Matty06/pen/bGKxNqX?editors=1111 s tím dál pracovat pomocí metod .map .forEach a podle toho přiřazovat classy 
+// Rules modal
+var modal = document.getElementById('rulesModal');
+var closeBtn = document.getElementsByClassName("js-close")[0];
 
-  
-   
+closeBtn.onclick = function() {
+    modal.style.display = "block";
+}
+
+closeBtn.onclick = function() {
+    modal.style.display = "none";
+    localStorage.setItem('modalPravidla', true);
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+        localStorage.setItem('modalPravidla', true);
+    }
+}
 
 
-/*
-
-
-   const open_btn = document.querySelector('.open-btn')
-   const close_btn = document.querySelector('.close-btn')
-   const nav = document.querySelectorAll('.nav')
-   
-   open_btn.addEventListener('click', () => {
-       nav.forEach(nav_el => nav_el.classList.add('visible'))
-   })
-   
-   close_btn.addEventListener('click', () => {
-       nav.forEach(nav_el => nav_el.classList.remove('visible'))
-   })
-
-   */
-
+if(localStorage.getItem('modalPravidla')) {
+   modal.classList.add('hide');
+}

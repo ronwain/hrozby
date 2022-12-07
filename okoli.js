@@ -173,7 +173,7 @@ document.getElementById('gohome').style.display = 'none';
 
 }
 
-document.querySelectorAll(`a`) // select all buttons
+document.querySelectorAll(".btn") // select all buttons
   .forEach( 
     el => el.addEventListener(`click`, clickME, {once: true})
   ) 

@@ -187,7 +187,7 @@ var existing = sessionStorage.getItem('mistnost');
 
 }
 
-document.querySelectorAll(`a`) // select all buttons
+document.querySelectorAll(".btn") // select all buttons
   .forEach( 
     el => el.addEventListener(`click`, clickME, {once: true})
   ) 
