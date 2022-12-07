@@ -1,0 +1,113 @@
+
+#koupelna--svg{
+    min-width: 100vw;
+    min-height: 90vh;
+    max-width: 177.7777vh;
+    max-height: 56.25vw ;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: translate(-50%, 0%);
+  }
+
+  .koupelna--svg {
+    height: 100vh;
+}
+
+
+/*Loznice*/
+
+
+/* close button */
+/* Duplicitní kód ve více css souborech stačí dát jednou do style.css (pokud se style načítá na všech stránkách) */
+
+.hint-close
+{
+  color: #fff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  margin: 20%;
+}
+
+.close_karma
+.close_vana
+.close_plisen
+.close_chemikalie
+.close_podlaha
+.close_pradlo
+{
+display: none;
+}
+
+.hint-close:hover
+ {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+.koupelna--hint, 
+.koupelna--modal_karma,
+.koupelna--modal_vana,
+.koupelna--modal_plisen,
+.koupelna--modal_chemikalie,
+.koupelna--modal_podlaha,
+.koupelna--modal_pradlo
+{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+   /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+  z-index: 1001;
+
+ 
+}
+
+
+
+/* modal - obrázky*/
+
+
+
+
+#img-karma {
+  background-image: url(img/hrozby/karma.svg);
+}
+
+
+#img-vana {
+    background-image: url(img/hrozby/fen.svg);
+  }
+
+  
+#img-plisen {
+    background-image: url(img/hrozby/koupelna_plisne.svg);
+  }
+
+
+  #img-chemikalie {
+    background-image: url(img/hrozby/cistici_prostredky.svg);
+  }
+
+  #img-podlaha {
+    background-image: url(img/hrozby/uklouznuti.svg);
+  }
+
+  #img-pradlo {
+    background-image: url(img/hrozby/pradlo.svg);
+  }

@@ -1,0 +1,111 @@
+#lo--svg{
+    min-width: 100vw;
+    min-height: 90vh;
+    max-width: 177.7777vh;
+    max-height: 56.25vw ;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: translate(-50%, 0%);
+  }
+
+  .lo--svg {
+    height: 100vh;
+}
+
+
+/*Kuchyně*/
+
+
+/* close button */
+/* Duplicitní kód ve více css souborech stačí dát jednou do style.css (pokud se style načítá na všech stránkách) */
+.hint-close
+{
+  color: #ffffff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  margin: 20%;
+}
+
+.close_kytky
+.close_roztoci
+.close_stenice
+.close_clovek
+.close_kocka
+.close_pc
+.close_schody
+{
+display: none;
+}
+
+.hint-close:hover
+ {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+.lo--hint, 
+.lo--modal_kytky,
+.lo--modal_roztoci,
+.lo--modal_stenice,
+.lo--modal_clovek,
+.lo--modal_kocka,
+.lo--modal_pc,
+.lo--modal_schody
+{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+   /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+  z-index: 1001;
+}
+
+
+/* modal - obrázky*/
+
+
+#img-kytky {
+  background-image: url(img/hrozby/kvetiny.svg);
+}
+
+#img-roztoci {
+  background-image: url(img/hrozby/stenice.svg);
+}
+
+#img-stenice {
+  background-image: url(img/hrozby/roztoci.svg);
+}
+
+#img-clovek {
+  background-image: url(img/hrozby/sluchatka.svg);
+}
+
+#img-kocka {
+  background-image: url(img/);
+}
+
+#img-pc {
+  background-image: url(img/hrozby/pocitac.svg);
+}
+
+#img-schody {
+  background-image: url(img/hrozby/schody.svg);
+}
+
+

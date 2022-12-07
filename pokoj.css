@@ -1,0 +1,100 @@
+#pokoj--svg{
+    min-width: 100vw;
+    min-height: 90vh;
+    max-width: 177.7777vh;
+    max-height: 56.25vw ;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: translate(-50%, 0%);
+  }
+
+  .pokoj--svg {
+    height: 100vh;
+}
+
+
+/*pokoj*/
+
+
+/* close button */
+/* Duplicitní kód ve více css souborech stačí dát jednou do style.css (pokud se style načítá na všech stránkách) */
+.hint-close {
+  color: #fff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+  text-transform: uppercase;
+  margin: 20%;
+}
+
+.close_lampa
+.close_baterky
+.close_pytlik
+.close_plys
+.close_skrin
+.close_zasuvky
+{
+display: none;
+}
+
+.hint-close:hover
+ {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+.po--hint, 
+.po--modal_lampa,
+.po--modal_baterky,
+.po--modal_pytlik,
+.po--modal_plys,
+.po--modal_skrin,
+.po--modal_zasuvky
+{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+   /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+  z-index: 1001;
+}
+
+
+/* modal - obrázky*/
+#img-lampa {
+  background-image: url(img/hrozby/);
+}
+
+#img-baterky {
+  background-image: url(img/hrozby/baterky.svg);
+}
+
+#img-pytlik {
+  background-image: url(img/hrozby/uduseni.svg);
+}
+
+#img-plys {
+  background-image: url(img/hrozby/hracky.svg);
+}
+
+#img-skrin {
+  background-image: url(img/hrozby/skrin.svg);
+}
+
+#img-zasuvky {
+  background-image: url(img/hrozby/zasuvky.svg);
+}

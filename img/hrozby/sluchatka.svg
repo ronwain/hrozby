@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 450.2 706.8">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Nepojmenovaný_přechod_12);
+      }
+
+      .cls-2 {
+        fill: url(#Nepojmenovaný_přechod_11);
+      }
+
+      .cls-3 {
+        fill: url(#Nepojmenovaný_přechod_10);
+      }
+
+      .cls-4 {
+        mix-blend-mode: overlay;
+        opacity: .3;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #999;
+      }
+
+      .cls-7 {
+        fill: #666;
+      }
+
+      .cls-8 {
+        fill: #333;
+      }
+
+      .cls-9 {
+        fill: #c9c9c9;
+      }
+
+      .cls-10 {
+        fill: url(#Nepojmenovaný_přechod_9-2);
+      }
+
+      .cls-11 {
+        fill: url(#Nepojmenovaný_přechod_7-2);
+      }
+
+      .cls-12 {
+        fill: url(#Nepojmenovaný_přechod_8-2);
+      }
+
+      .cls-13 {
+        fill: url(#Nepojmenovaný_přechod_6-2);
+      }
+
+      .cls-14 {
+        fill: url(#Nepojmenovaný_přechod_6);
+      }
+
+      .cls-15 {
+        fill: url(#Nepojmenovaný_přechod_8);
+      }
+
+      .cls-16 {
+        fill: url(#Nepojmenovaný_přechod_7);
+      }
+
+      .cls-17 {
+        fill: url(#Nepojmenovaný_přechod_9);
+      }
+
+      .cls-18 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 5px;
+      }
+
+      .cls-19 {
+        fill: url(#Nepojmenovaný_přechod_12-2);
+      }
+
+      .cls-20 {
+        fill: url(#Nepojmenovaný_přechod_11-2);
+      }
+
+      .cls-21 {
+        fill: url(#Nepojmenovaný_přechod_10-2);
+      }
+
+      .cls-22 {
+        isolation: isolate;
+      }
+    </style>
+    <radialGradient id="Nepojmenovaný_přechod_12" data-name="Nepojmenovaný přechod 12" cx="152.88" cy="222.7" fx="152.88" fy="222.7" r="27.04" gradientTransform="translate(-7.33 -515.98) scale(2.54 2.64)" gradientUnits="userSpaceOnUse">
+      <stop offset=".82" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="Nepojmenovaný_přechod_11" data-name="Nepojmenovaný přechod 11" cx="152.88" cy="222.7" fx="152.88" fy="222.7" r="22.14" gradientTransform="translate(-7.33 -515.98) scale(2.54 2.64)" gradientUnits="userSpaceOnUse">
+      <stop offset=".79" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="Nepojmenovaný_přechod_10" data-name="Nepojmenovaný přechod 10" cx="152.88" cy="222.7" fx="152.88" fy="222.7" r="17.42" gradientTransform="translate(-7.33 -515.98) scale(2.54 2.64)" gradientUnits="userSpaceOnUse">
+      <stop offset=".77" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="Nepojmenovaný_přechod_9" data-name="Nepojmenovaný přechod 9" cx="152.88" cy="222.7" fx="152.88" fy="222.7" r="13.39" gradientTransform="translate(-7.33 -515.98) scale(2.54 2.64)" gradientUnits="userSpaceOnUse">
+      <stop offset=".71" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="Nepojmenovaný_přechod_8" data-name="Nepojmenovaný přechod 8" cx="152.88" cy="222.7" fx="152.88" fy="222.7" r="9.55" gradientTransform="translate(-7.33 -515.98) scale(2.54 2.64)" gradientUnits="userSpaceOnUse">
+      <stop offset=".69" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="Nepojmenovaný_přechod_7" data-name="Nepojmenovaný přechod 7" cx="152.88" cy="222.7" fx="152.88" fy="222.7" r="6.48" gradientTransform="translate(-7.33 -515.98) scale(2.54 2.64)" gradientUnits="userSpaceOnUse">
+      <stop offset=".62" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="Nepojmenovaný_přechod_6" data-name="Nepojmenovaný přechod 6" cx="152.88" cy="222.7" fx="152.88" fy="222.7" r="4.11" gradientTransform="translate(-7.33 -515.98) scale(2.54 2.64)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="Nepojmenovaný_přechod_12-2" data-name="Nepojmenovaný přechod 12" cx="29.92" cy="222.14" fx="29.92" fy="222.14" r="27.04" xlink:href="#Nepojmenovaný_přechod_12"/>
+    <radialGradient id="Nepojmenovaný_přechod_11-2" data-name="Nepojmenovaný přechod 11" cx="29.92" cy="222.14" fx="29.92" fy="222.14" r="22.14" xlink:href="#Nepojmenovaný_přechod_11"/>
+    <radialGradient id="Nepojmenovaný_přechod_10-2" data-name="Nepojmenovaný přechod 10" cx="29.92" cy="222.14" fx="29.92" fy="222.14" r="17.42" xlink:href="#Nepojmenovaný_přechod_10"/>
+    <radialGradient id="Nepojmenovaný_přechod_9-2" data-name="Nepojmenovaný přechod 9" cx="29.92" cy="222.14" fx="29.92" fy="222.14" xlink:href="#Nepojmenovaný_přechod_9"/>
+    <radialGradient id="Nepojmenovaný_přechod_8-2" data-name="Nepojmenovaný přechod 8" cx="29.92" cy="222.14" fx="29.92" fy="222.14" r="9.55" xlink:href="#Nepojmenovaný_přechod_8"/>
+    <radialGradient id="Nepojmenovaný_přechod_7-2" data-name="Nepojmenovaný přechod 7" cx="29.92" cy="222.14" fx="29.92" fy="222.14" xlink:href="#Nepojmenovaný_přechod_7"/>
+    <radialGradient id="Nepojmenovaný_přechod_6-2" data-name="Nepojmenovaný přechod 6" cx="29.92" cy="222.14" fx="29.92" fy="222.14" r="4.11" xlink:href="#Nepojmenovaný_přechod_6"/>
+  </defs>
+  <g class="cls-22">
+    <g id="Vrstva_1" data-name="Vrstva 1">
+      <g>
+        <rect class="cls-6" x="87.71" y="578.85" width="7.26" height="45.58" rx="3.63" ry="3.63" transform="translate(543.31 194.16) rotate(56.6)"/>
+        <g>
+          <circle class="cls-5" cx="68.76" cy="72.87" r="13.58"/>
+          <path class="cls-8" d="M88.08,65.43h-11.5c-3.83,0-7.25,2.73-7.76,6.53-.61,4.59,2.99,8.56,7.47,8.56h11.78c2.05,0,3.71-1.66,3.71-3.71v-7.66c0-2.05-1.66-3.71-3.71-3.71Z"/>
+          <circle class="cls-5" cx="381.44" cy="72.87" r="13.58"/>
+          <path class="cls-8" d="M361.61,80.3h12.01c3.83,0,7.25-2.73,7.76-6.53,.61-4.59-2.99-8.56-7.47-8.56h-12.29c-1.77,0-3.2,1.43-3.2,3.2v8.69c0,1.77,1.43,3.2,3.2,3.2Z"/>
+          <path class="cls-18" d="M55.18,72.87s-16.03,.77-4.78,38.7c11.25,37.93,29.56,101.42,31.94,156.91,2.38,55.49,10.29,96.13,73.88,130.69,63.58,34.56,48.95,67.65,51.2,117.8,2.25,50.15-.86,120.58,42.71,163.31,73.12,71.71,163.74-32.99,95.93-105.82-77-82.69-213.14-.65-213.14-.65"/>
+          <path class="cls-18" d="M207.42,516.96c-.09-43.33,3.46-90.99,27.34-100.91,23.88-9.92,120.13-29.6,136.45-81.1,16.32-51.51-2.81-120.17,2.25-143.25,5.07-23.08,48.73-118.84,21.57-118.84"/>
+          <rect class="cls-5" x="199.16" y="486.7" width="15.45" height="27.17" rx="5.04" ry="5.04"/>
+          <rect class="cls-9" x="203.49" y="491.76" width="6.8" height="17.06" rx="2.97" ry="2.97"/>
+        </g>
+        <g class="cls-4">
+          <ellipse class="cls-1" cx="381.44" cy="72.97" rx="68.76" ry="71.5"/>
+          <ellipse class="cls-2" cx="381.44" cy="72.97" rx="56.31" ry="58.56"/>
+          <ellipse class="cls-3" cx="381.44" cy="72.97" rx="44.3" ry="46.07"/>
+          <ellipse class="cls-17" cx="381.44" cy="72.97" rx="34.06" ry="35.42"/>
+          <ellipse class="cls-15" cx="381.44" cy="72.97" rx="24.28" ry="25.25"/>
+          <ellipse class="cls-16" cx="381.44" cy="72.97" rx="16.49" ry="17.15"/>
+          <path class="cls-14" d="M381.44,62.09c5.78,0,10.46,4.87,10.46,10.88s-4.68,10.88-10.46,10.88-10.46-4.87-10.46-10.88,4.68-10.88,10.46-10.88Z"/>
+        </g>
+        <g class="cls-4">
+          <ellipse class="cls-19" cx="68.76" cy="71.5" rx="68.76" ry="71.5"/>
+          <ellipse class="cls-20" cx="68.76" cy="71.5" rx="56.31" ry="58.56"/>
+          <ellipse class="cls-21" cx="68.76" cy="71.5" rx="44.3" ry="46.07"/>
+          <ellipse class="cls-10" cx="68.76" cy="71.5" rx="34.06" ry="35.42"/>
+          <ellipse class="cls-12" cx="68.76" cy="71.5" rx="24.28" ry="25.25"/>
+          <ellipse class="cls-11" cx="68.76" cy="71.5" rx="16.49" ry="17.15"/>
+          <path class="cls-13" d="M68.76,60.62c5.78,0,10.46,4.87,10.46,10.88s-4.68,10.88-10.46,10.88-10.46-4.87-10.46-10.88,4.68-10.88,10.46-10.88Z"/>
+        </g>
+        <rect class="cls-5" x="108.26" y="561.25" width="19.53" height="45.58" rx="9.77" ry="9.77" transform="translate(540.61 163.97) rotate(56.6)"/>
+        <rect class="cls-7" x="80.34" y="604.7" width="1.72" height="7.26" transform="translate(-321.49 145.19) rotate(-33.4)"/>
+        <rect class="cls-7" x="77.54" y="606.54" width="1.72" height="7.26" transform="translate(-322.97 143.95) rotate(-33.4)"/>
+      </g>
+    </g>
+  </g>
+</svg>

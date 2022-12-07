@@ -1,0 +1,90 @@
+#puda--svg{
+    min-width: 100vw;
+    min-height: 90vh;
+    max-width: 177.7777vh;
+    max-height: 56.25vw ;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: translate(-50%, 0%);
+  }
+
+  .puda--svg {
+    height: 100vh;
+}
+
+
+/*Kuchyně*/
+
+
+/* close button */
+.hint-close
+{
+  color: #ffffff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  text-transform: uppercase;
+  margin: 20%;
+}
+
+.close_mys
+.close_holub
+.close_bordel
+.close_dira
+{
+display: none;
+}
+
+.hint-close:hover
+ {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+.pu--hint, 
+.pu--modal_mys,
+.pu--modal_holub,
+.pu--modal_bordel,
+.pu--modal_dira
+{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+   /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+  z-index: 1001;
+}
+
+
+/* modal - obrázky*/
+
+
+#img-mys {
+  background-image: url(img/hrozby/mys.svg);
+}
+
+#img-bordel {
+  background-image: url(img/hrozby/neporadek.svg);
+}
+
+#img-holub {
+  background-image: url(img/hrozby/holub.svg);
+}
+
+#img-okno {
+  background-image: url(img/hrozby/stavebni_zavady.svg);
+}

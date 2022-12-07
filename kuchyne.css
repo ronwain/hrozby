@@ -1,0 +1,100 @@
+#okoli--svg{
+    min-width: 100vw;
+    min-height: 90vh;
+    max-width: 177.7777vh;
+    max-height: 56.25vw ;
+    width: auto;
+    height: auto;
+    position: relative;
+    top: 0;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transform: translate(-50%, 0%);
+  }
+
+  .okoli--svg {
+    height: 100vh;
+}
+
+
+/*Kuchyně*/
+
+
+/* close button */
+/* Duplicitní kód ve více css souborech stačí dát jednou do style.css (pokud se style načítá na všech stránkách) */
+.hint-close {
+  color: #fff;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  background-color: #fff;
+  color: #000;
+  text-transform: uppercase;
+  margin: 20%;
+}
+
+.close_moly
+.close_kos
+.close_konvice
+.close_para
+.close_plyn
+.close_mama
+{
+display: none;
+}
+
+.hint-close:hover
+ {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
+
+.ku--hint, 
+.ku--modal_moly,
+.ku--modal_kos,
+.ku--modal_konvice,
+.ku--modal_para,
+.ku--modal_plyn,
+.ku--modal_mama
+{
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+   /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+  z-index: 1001;
+}
+
+
+/* modal - obrázky*/
+#img-moly {
+  background-image: url(img/hrozby/potraviny.svg);
+}
+
+#img-konvice {
+  background-image: url(img/hrozby/dite.svg);
+}
+
+#img-kos {
+  background-image: url(img/hrozby/odpadky.svg);
+}
+
+#img-para {
+  background-image: url(img/hrozby/plisne.svg);
+}
+
+#img-plyn {
+  background-image: url(img/hrozby/sporak.svg);
+}
+
+#img-mama {
+  background-image: url(img/hrozby/rodic.svg);
+}

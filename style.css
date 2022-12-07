@@ -1,0 +1,695 @@
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  height: 100vh;
+}
+
+
+* {
+  box-sizing: border-box;
+  color: #fff;
+  margin: 0%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  color: #000;
+  height: 100%;
+}
+
+.button--style{
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  text-transform: uppercase;
+  padding: 1%;
+  margin: 1%;
+  height: auto;
+  width: 100%;
+  border: rgba(0, 0, 0, 0);
+}
+
+.button--style:hover {
+  background-color: forestgreen;
+}
+
+a {
+  color: #000;
+  text-transform: uppercase;  
+}
+
+
+
+
+
+
+.otoc {
+  color:#000
+}
+
+/*screen svg*/
+.screen{
+  position: fixed;
+  left:0px;
+  top:0px;
+  right: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  overflow: auto; 
+}
+
+#loznice--svg{
+  min-width: 100vw;
+  min-height: 90vh;
+  max-width: 177.7777vh;
+  max-height: 56.25vw ;
+  width: auto;
+  height: auto;
+  position: relative;
+  top: 0;
+  left: 50%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform: translate(-50%, 0%);
+}
+
+.loznice--svg {
+    height: 100vh;
+}
+
+/*popisek*/
+.popisek {
+  height: auto;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  color: #fff;
+  background-color: #020811a1;
+  z-index: 10000;
+  position: fixed;
+  right: 0;
+  top: 0;
+  padding: 1%;
+}
+
+.popisek--star {
+  background-image: url(img/hvezda.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #000;
+  animation: heartbeat ;
+  margin: 3%;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 1 / 1;
+  animation-iteration-count: 1;
+  animation-duration: 2s;
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: rotate(0deg)
+  }
+  25% {
+    transform: rotate(-30deg)
+  }
+ 
+  75% {
+    transform: rotate(30deg)
+  }
+  100% {
+    transform: rotate(0deg)
+  }
+}
+  
+
+.cliks {
+  z-index: 10001;
+  color: red;
+}
+
+#gohome {
+  display: none;
+
+}
+
+/*home*/
+.home--star {
+  position: fixed;
+  z-index: 1000;
+  height: 100vh;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 8px;
+  color: #fff;
+  background-color: #020811a1;
+  font-size: 18px;
+
+}
+
+h2, p {
+  font-size: 18px; 
+  max-width: 100%;
+}
+
+.star--place { 
+  display: flex;
+}
+
+
+ img  {
+  height: 7vh;
+  width: 7vw;
+  color: #000;
+  animation: heartbeat ;
+  animation-iteration-count: 1;
+  animation-duration: 4s;
+ }
+#star_pokoj {
+  animation: heartbeat ;
+  animation-iteration-count: 1;
+  animation-duration: 4s;
+  animation-delay: 2s;
+}
+
+#star_okoli {
+  animation: heartbeat ;
+  animation-iteration-count: 1;
+  animation-duration: 4s;
+  animation-delay: 4s;
+}
+
+#star_dilna {
+  animation: heartbeat ;
+  animation-iteration-count: 1;
+  animation-duration: 6s;
+  animation-delay: 3s;
+}
+
+
+/*modaly*/
+
+.modal-content {
+  display: none; 
+  background-color: #fefefe00;
+  margin: auto;
+  padding: 20px;
+  width: 50%;
+  border-radius: 16px;
+  color: #000;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+/*Loznice*/
+
+
+/* close button */
+
+/* close button */
+
+
+
+
+.obyvak-hint-modal {
+  display: none; 
+  position: fixed; 
+   /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8); 
+  z-index: 1001;
+}
+
+
+
+/* modal - obrázky*/
+.modal-star {
+  width: 58px;
+  height: 58px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1001;
+  background-image: url(img/hvezda.svg);
+}
+
+.modal-img {
+  width: 120px;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1001;
+}
+
+/* selector img-kocka a background je domecek? nedává smysl */
+#img-kocka {
+  background-image: url(img/domecek.png);
+}
+
+
+.star--place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: calc(100%/8);
+  
+}
+
+.star--counter {
+  width: auto;
+  height: auto;
+  max-height: 20vh;
+  max-width: 20vw;
+  margin: 2% 0 2% 0 ;
+  font-size: 14px;
+  color: #000;
+  z-index: 1000;
+}
+
+
+
+/* (A) WRONG ORIENTATION - SHOW MESSAGE HIDE CONTENT */
+@media only screen and (orientation:portrait) {
+  .otoc { display:block; }
+  .screen { display:none; }
+}
+ 
+/* (B) CORRECT ORIENTATION - SHOW CONTENT HIDE MESSAGE */
+@media only screen and (orientation:landscape) {
+  .otoc { display:none; }
+  .screen { display:block; }
+}
+
+
+@media  (max-width: 576px)
+ {
+  h2, p {
+ font-size: 16px;
+ color: #58ea00;
+  }
+  .button--style{
+    font-size: 10px;
+  }
+
+  .modal-star, .popisek--star {
+    width: 32px;
+    height: 32px;
+  }
+
+  .home--star{
+    width: 20vw;
+  }
+
+  .star--place {
+    flex-direction: row;
+    width: 100%;
+  }
+  .place--img {
+    flex: 1;
+    
+  }
+  .place--text {
+    flex: 2;
+    
+  }
+   }
+  @media (min-width: 576px) and (max-width: 768px)
+ {
+    h2, p  {
+   font-size: 14px;
+   color: aqua;
+  
+    }
+    .button--style{
+      font-size: 12px;
+    }
+    .modal-star, .popisek--star {
+      width: 32px;
+      height: 32px;
+    }
+    .home--star{
+      width: 20vw;
+    }
+
+    .star--place {
+      flex-direction: row;
+      width: 100%;
+    }
+    .place--img {
+      flex: 1;
+      
+    }
+    .place--text {
+      flex: 2;
+      
+    }
+
+    figcaption {
+      text-align: left;
+    }
+   
+    }
+
+    @media (min-width: 768px) and (max-width: 992px)
+    {
+       h2, p {
+      font-size: 18px;
+      color: rgb(228, 243, 113);
+       }
+       .button--style{
+         font-size: 16px;
+       }
+       .popisek--star {
+        width: auto;
+        height: auto;
+        max-height: 15vh;
+        max-width: 15vw;
+       }
+       .modal-star, .popisek--star {
+        width: 32px;
+        height: 32px;
+      }
+      .home--star{
+        width: 20vw;
+      }
+  
+      .star--place {
+        flex-direction: row;
+        width: 100%;
+      }
+      .place--img {
+        flex: 1;
+        
+      }
+      .place--text {
+        flex: 2;
+        
+      }
+
+      figcaption,h2 {
+        text-align:  left;
+      }
+     
+      
+
+}
+.star--counter {
+    font-size: 12px;
+      }
+       
+
+       @media (min-width: 992px) and (max-width: 1200px)
+       {
+        p,  button {
+          font-size: 20px;
+          color: rgb(136, 136, 230);
+           }
+
+           h2, h3 {
+            font-size: 28px;
+            color: rgb(247, 240, 233)
+    
+             }
+
+       
+
+        .modal-star, .popisek--star {
+          width: 32px;
+          height: 32px;
+        }
+        .home--star{
+          width: 20vw;
+        }
+    
+        .star--place {
+          flex-direction: row;
+          width: 100%;
+        }
+        .place--img {
+          flex: 1;
+          
+        }
+        .place--text {
+          flex: 2;
+          
+        }
+        .modal-content {
+
+          margin-top: 10%;
+      }
+        }
+
+      
+       @media (min-width: 1201px) and (max-width: 1400px)
+       {
+        p,  button {
+          font-size: 24px;
+          color: rgb(249, 250, 249);
+           }
+           h2, h3 {
+            font-size: 32px;
+            color: rgb(247, 240, 233)
+    
+             }
+
+        .modal-star, .popisek--star {
+          width: 56px;
+          height: 56px;
+        }
+
+        .modal-content {
+
+          margin-top: 10%;
+      }
+      .modal-img {
+        width: 200px;
+        height: 200px;
+        }
+       }
+
+       @media (min-width: 1400px) 
+       {
+         p,  button {
+          font-size: 24px;
+          color: rgb(226, 134, 43);
+           }
+
+           h2, h3 {
+            font-size: 32px;
+            color: rgb(226, 134, 43)
+    
+             }
+
+        .modal-star, .popisek--star {
+          width: 64px;
+          height: 64px;
+          margin-bottom: 3%;
+        }
+        .modal-content {
+          margin-top: 15%;
+      }
+
+      .modal-img {
+        width: 240px;
+        height: 240px;
+        }
+       }
+
+     
+      
+       .nesvit {
+        filter: invert(80%) 
+       }
+      .svit {
+       filter: invert(0%) 
+      }
+
+      
+@keyframes firework {
+  0% { transform: translate(var(--x), var(--initialY)); width: var(--initialSize); opacity: 1; }
+  50% { width: 0.5vmin; opacity: 1; }
+  100% { width: var(--finalSize); opacity: 0; }
+}
+
+/* @keyframes fireworkPseudo {
+  0% { transform: translate(-50%, -50%); width: var(--initialSize); opacity: 1; }
+  50% { width: 0.5vmin; opacity: 1; }
+  100% { width: var(--finalSize); opacity: 0; }
+}
+ */
+.firework,
+.firework::before,
+.firework::after
+{
+  --initialSize: 0.5vmin;
+  --finalSize: 45vmin;
+  --particleSize: 0.2vmin;
+  --color1: yellow;
+  --color2: khaki;
+  --color3: white;
+  --color4: lime;
+  --color5: gold;
+  --color6: mediumseagreen;
+  --y: -30vmin;
+  --x: -50%;
+  --initialY: 60vmin;
+  content: "";
+  animation: firework 2s infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, var(--y));
+  width: var(--initialSize);
+  aspect-ratio: 1;
+  background: 
+    /*
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 0% 0%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 100% 0%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 100% 100%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 0% 100%,
+    */
+    
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 50% 0%,
+    radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 100% 50%,
+    radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 50% 100%,
+    radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 0% 50%,
+    
+    /* bottom right */
+    radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 80% 90%,
+    radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 95% 90%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 90% 70%,
+    radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 100% 60%,
+    radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 55% 80%,
+    radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 70% 77%,
+    
+    /* bottom left */
+    radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 22% 90%,
+    radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 45% 90%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 33% 70%,
+    radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 10% 60%,
+    radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 31% 80%,
+    radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 28% 77%,
+    radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 13% 72%,
+    
+    /* top left */
+    radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 80% 10%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 95% 14%,
+    radial-gradient(circle, var(--color2) var(--particleSize), #0000 0) 90% 23%,
+    radial-gradient(circle, var(--color3) var(--particleSize), #0000 0) 100% 43%,
+    radial-gradient(circle, var(--color4) var(--particleSize), #0000 0) 85% 27%,
+    radial-gradient(circle, var(--color5) var(--particleSize), #0000 0) 77% 37%,
+    radial-gradient(circle, var(--color6) var(--particleSize), #0000 0) 60% 7%,
+    
+    /* top right */
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 22% 14%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 45% 20%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 33% 34%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 10% 29%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 31% 37%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 28% 7%,
+    radial-gradient(circle, var(--color1) var(--particleSize), #0000 0) 13% 42%
+    ;
+  background-size: var(--initialSize) var(--initialSize);
+  background-repeat: no-repeat;
+}
+
+.firework::before {
+  --x: -50%;
+  --y: -50%;
+  --initialY: -50%;
+/*   transform: translate(-20vmin, -2vmin) rotate(40deg) scale(1.3) rotateY(40deg); */
+  transform: translate(-50%, -50%) rotate(40deg) scale(1.3) rotateY(40deg);
+/*   animation: fireworkPseudo 2s infinite; */
+}
+
+.firework::after {
+  --x: -50%;
+  --y: -50%;
+  --initialY: -50%;
+/*   transform: translate(44vmin, -50%) rotate(170deg) scale(1.15) rotateY(-30deg); */
+  transform: translate(-50%, -50%) rotate(170deg) scale(1.15) rotateY(-30deg);
+/*   animation: fireworkPseudo 2s infinite; */
+}
+
+.firework:nth-child(2) {
+  --x: 30vmin;
+}
+
+.firework:nth-child(2),
+.firework:nth-child(2)::before,
+.firework:nth-child(2)::after {
+  --color1: pink;
+  --color2: violet;
+  --color3: fuchsia;
+  --color4: orchid;
+  --color5: plum;
+  --color6: lavender;  
+  --finalSize: 40vmin;
+  left: 30%;
+  top: 60%;
+  animation-delay: -0.25s;
+}
+
+.firework:nth-child(3) {
+  --x: -30vmin;
+  --y: -50vmin;
+}
+
+.firework:nth-child(3),
+.firework:nth-child(3)::before,
+.firework:nth-child(3)::after {
+  --color1: cyan;
+  --color2: lightcyan;
+  --color3: lightblue;
+  --color4: PaleTurquoise;
+  --color5: SkyBlue;
+  --color6: lavender;
+  --finalSize: 35vmin;
+  left: 70%;
+  top: 60%;
+  animation-delay: -0.4s;
+}
+
+
+#fire {
+  display: none;
+}
+
+.victory {
+  font-size: 500%;
+  background-color:#020811a1;
+  z-index: 50000;
+  position: relative;
+  height:100%;
+  width: 100%;
+}
