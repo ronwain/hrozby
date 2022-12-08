@@ -388,6 +388,40 @@ h2, p {
     
   }
    }
+
+   @media  (max-height: 650px)
+ {
+  h2, p {
+ font-size: 16px;
+ color: #58ea00;
+  }
+  .button--style{
+    font-size: 10px;
+  }
+
+  .modal-star, .popisek--star {
+    width: 32px;
+    height: 32px;
+  }
+
+  .home--star{
+    width: 20vw;
+  }
+
+  .star--place {
+    flex-direction: row;
+    width: 100%;
+  }
+  .place--img {
+    flex: 1;
+    
+  }
+  .place--text {
+    flex: 2;
+    
+  }
+   }
+
   @media (min-width: 576px) and (max-width: 768px)
  {
     h2, p  {
